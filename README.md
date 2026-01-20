@@ -26,19 +26,24 @@ This project demonstrates clean code structure, task persistence using JSON, and
 python-task-manager/
 │
 ├── main.py # Command-line interface
+
 ├── task_manager.py # Business logic
+
 ├── storage.py # JSON persistence
+
 ├── models.py # Data models
+
 ├── data/
+
 │ └── tasks.json # Stored tasks
+
 └── README.md
+
 
 
 ---
 
-## ▶️ How to Run
 
 1. Clone the repository:
-```bash
 git clone https://github.com/fofos123-CPU/python-task-manager.git
 
