@@ -8,7 +8,7 @@ def show_tasks(tasks):
 
     print("\nTasks:")
     for task in tasks:
-        status = "✓" if task.completed else " "
+        status = "✓" if task.completed else " "  # M
         print(f"[{status}] {task.id}. {task.title}")
     print()
 
